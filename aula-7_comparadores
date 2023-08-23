@@ -1,0 +1,102 @@
+let a = 3;
+let b = 5;
+let c = 6;
+let d = 7;
+let e = 4;
+
+console.log(a % 2);
+console.log(c % 2);
+// % -> resto da divisão + 2 -> pra saber se o numero é par ou impar (0 = par . 1 = impar)
+
+let myAge = 14;
+console.log('antes', myAge);
+myAge = myAge + 2;
+console.log('depois', myAge);
+
+//EXERCICIO 1 :
+let soma1 = 3;
+let soma2 = 4;
+let somaResultado = soma1 + soma2;
+console.log(somaResultado);
+
+let multi1 = 3;
+let multi2 = 5;
+let multiResultado = multi1 * multi2 / 2;
+console.log(multiResultado);
+
+let sub1 = 5;
+let sub2 = 4;
+let subResultado = 4 - 5 * -1;
+console.log(subResultado);
+
+let div1 = 234;
+let div2 = 5;
+console.log(div1 % div2);
+
+//COMPARADORES :
+// === -> igual
+// !== -> diferente
+// > e >= -> maior/maior igual *
+// < e <= -> menor/menor igual *
+//* só podem ser usados com NUMBERS
+
+//EXERCICIO 2 :
+/*const number1 = 10;
+const number2 = 20;
+console.log(number1 === number2);
+console.log(number1 !== number2);
+console.log(number1 >= number2);
+console.log(number1 <= number2);*/
+
+//OPERADORES/COMPARADORES LOGICOS :
+//operadores usados entre booleanos
+// operador E -> && (retorna true somente se ambos booleanos forem TRUE)
+// operador Ou -> || (retorna false somente se ambos booleanos forem FALSE)
+// operador Negação -> ! (retorna o booleano oposto)
+
+/*let A = 5;
+let B = 3;
+let C = 0;
+
+console.log(A === B || A !== C);
+console.log(A === B && A !== C);
+
+console.log('---------------------------------');
+
+console.log(true || false);
+console.log(true && false);
+console.log(true && true);*/
+
+//EXERCICIO 3 :
+const A = true;
+const B = false;
+const C = true;
+console.log(A && B);        //false
+console.log(B && C);        //false
+console.log(A && C);        //true
+console.log(A && B && C);   //false
+console.log('---------------------------------');
+console.log(A || B);        //true
+console.log(B || C);        //true
+console.log(A || C);        //true
+console.log(A || B || C);   //true
+console.log('---------------------------------');
+let V = true;
+let F = false;
+console.log(V);
+console.log(!V);
+
+console.log(F);
+console.log(!F);
+console.log('---------------------------------');
+
+//EXERCICIO 4 :
+let name = prompt("Qual o seu nome?");
+let age = prompt("Quantos anos voce tem?")
+let year = prompt("Quando voce nasceu?");
+age = Number(age)
+console.log("nome:", name);
+console.log('idade:', age);
+console.log('ano que nasceu:', year);
+console.log('É maior de idade?:', age === 18);
+console.log('idade em 2050:', age + 27);
