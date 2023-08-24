@@ -1,0 +1,173 @@
+//Nathaniel Santos
+
+//EXERCICIOS DE INTERPRETAÇÃO DE CÓDIGO
+//1.
+//a. false
+//b. false
+//c. true
+//d. boolean
+
+
+/*
+2. não será impresso o que ele pediu. O codigo escrito irá apenas juntar
+os números em um numero inteiro. Ex: 14 + 2 irá resultar em 142.
+*/
+
+
+//3. a variavel usada para a soma precisa ser ALTERAVEL (usar o comando let)
+
+
+//EXERCICIOS DE ESCRITA DE CÓDIGO
+//1.
+/*
+let age = prompt('Quantos anos voce tem?');
+let ageFriend = prompt('Quantos anos seu(a) melhor amigo(a) tem?');
+age = Number(age);
+ageFriend = Number(ageFriend);
+console.log('Sua idade é maior que a do seu melhor amigo?', age > ageFriend );
+console.log('Diferença de idade:', age - ageFriend);
+*/
+
+
+//2.
+/*
+let number = prompt('Insira um número que seja PAR');
+number = Number(number);
+console.log("O resto da divisão desse número por 2 resulta em:", number % 2);
+*/
+//se o número inserido for PAR, o resultado será 0
+//se o número for IMPAR, o resultado será 1
+
+
+//3. 
+/*
+let age = prompt('Quanto anos voce tem?');
+age = Number(age);
+console.log('Idade em anos:', age);
+console.log('Idade em meses:', age * 12);
+console.log('Idade em dias:', age * 30);
+console.log('Idade em horas:', age * 24);
+*/
+
+
+//4.
+/*
+let number1 = prompt('Insira um número de 1 a 10');
+let number2 = prompt('Insira outro número');
+number1 = Number(number1);
+number2 = Number(number2);
+console.log('O primeiro número é maior que o segundo?', number1 > number2);
+console.log('O primeiro número é igual ao segundo?', number1 === number2);
+console.log('O primeiro número é divisível pelo segundo?', number1 % number2);
+console.log('O segundo número é divisível pelo primeiro?', number2 % number1);
+*/
+
+
+//DESAFIOS
+//1.
+//a.
+/*
+let grausF = prompt('Graus em Fahrenheit');
+grausF = Number(grausF);
+let kelvin;
+console.log('Graus Fahrenheit para Graus kelvin:', (kelvin) = (grausF - 32) * (5 / 9) + 273.15);
+*/
+//resposta: 298.15
+
+//b.
+/*
+let celsius = prompt('Graus em Celsius');
+celsius = Number(celsius);
+let grausF;
+console.log("Graus Celsius para Graus Fahrenheit:", (grausF) = (celsius) * (9 / 5) + 32);
+*/
+//resposta: 176
+
+//c.
+/*
+let celsius = prompt("Graus em Celsius");
+celsius = Number(celsius);
+let kelvin;
+let grausF;
+console.log('Graus Celsius em Graus Fahrenheit:', (grausF) = (celsius) * (9 / 5) + 32);
+console.log('Graus Celsius para Graus Kelvin:', (kelvin) = (celsius) + 273.15);
+*/
+//resposta: Fahrenheit = 86, Kelvin = 303.15
+//d. eu meio q ja fiz isso desde o começo :clownface: usando o comando prompt
+
+
+//2.
+//a.
+/*
+let quilowattH = 0.05
+let residencia = 280
+console.log('O valor a ser pago é de:', residencia * quilowattH);
+*/
+//resposta: $14
+
+//b.
+/*
+let quilowattH = 0.05
+let residencia = 280
+console.log('O valor a ser pago é de:', residencia * quilowattH);
+console.log('Valor a ser pago com 15% de desconto:', (residencia * quilowattH * 15) / 100);
+*/
+//resposta: $2.1
+
+
+//3.
+//a.
+/*
+let libra = 20
+let kilo = 0.453
+console.log('20 Libras para Quilogramas:', libra * kilo);
+*/
+//resposta: 9.06
+
+//b.
+/*
+let onca = 10.5
+let kilo = 0.028
+console.log('10.5 onças para quilogramas:', kilo * onca);
+*/
+//resposta: 2.9767
+
+//c.
+/*
+let milha = 100
+let metro = 1.609
+console.log('100 milhas para metros:', metro * milha);
+*/
+//resposta: 160.9
+
+//d.
+/*
+let pe = 50
+let metro = 0.3048
+console.log('50 pés para metros:', metro * pe);
+*/
+//resposta: 15.24
+
+//e.
+/*
+let galao = 103.56
+let litro = 3.78541
+console.log('103.56 galoes para litros:', litro * galao);
+*/
+//resposta: 392.017
+
+//f.
+/*
+let xicara = 405
+let litro = 0.284131
+console.log('405 xicaras para litros', litro * xicara);
+*/
+//resposta: 115.73
+
+//g.
+/*
+let galon = prompt('quantos galoes?');
+galon = Number(galon);
+let litro = 3.78541
+console.log('Galons para Litros:', galon * litro);
+*/
