@@ -14,7 +14,7 @@ os números em um numero inteiro. Ex: 14 + 2 irá resultar em 142.
 */
 
 
-//3. a variavel usada para a soma precisa ser ALTERAVEL (usar o comando let)
+//3. a variavel precisa ser convertida para NUMBER
 
 
 //EXERCICIOS DE ESCRITA DE CÓDIGO
@@ -58,8 +58,8 @@ number1 = Number(number1);
 number2 = Number(number2);
 console.log('O primeiro número é maior que o segundo?', number1 > number2);
 console.log('O primeiro número é igual ao segundo?', number1 === number2);
-console.log('O primeiro número é divisível pelo segundo?', number1 % number2);
-console.log('O segundo número é divisível pelo primeiro?', number2 % number1);
+console.log('O primeiro número é divisível pelo segundo?', Boolean(number1 % number2));
+console.log('O segundo número é divisível pelo primeiro?', Boolean(number2 % number1));
 */
 
 
